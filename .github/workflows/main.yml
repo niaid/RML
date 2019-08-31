@@ -1,16 +1,9 @@
-name: Jekyll site CI
+workflow "Jekyll" {
+  on = "push"
+  resolves = ["Build and Deploy Jekyll"]
+}
 
-on: [push]
-
-jobs:
-  build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v1
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/ -v ${{ github.workspace }}/_site: \
-        jekyll/builder:latest /bin/bash -c "chmod 777 . && jekyll build --future"
+action "Build and Deploy Jekyll" {
+  uses = "BryanSchuetz/jekyll-deploy-gh-pages@master"
+  secrets = ["JEKYLL_PAT"]
+}
