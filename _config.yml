@@ -1,1 +1,5 @@
+title: BCBB Training Seminars at Rocky Mountain Labs
 theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-github-metadata
