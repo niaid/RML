@@ -9,7 +9,7 @@ action "Jekyll Action" {
   uses = "helaili/jekyll-action@master"
   needs = "Filters for GitHub Actions"
   env = {
-    SRC = "sample_site"
+    SRC = "."
   }
   secrets = ["JEKYLL_PAT"]
 }
