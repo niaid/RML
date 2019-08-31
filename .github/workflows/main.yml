@@ -1,5 +1,0 @@
-- name: "Jekyll build"
-  uses: "helaili/jekyll-action@master"
-  needs: "Filters for GitHub Actions"
-  secrets: ["JEKYLL_PAT"]
-
