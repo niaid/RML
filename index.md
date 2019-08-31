@@ -3,5 +3,9 @@
 Here's a list of the seminars:
 
 {% for repository in site.github.public_repositories %}
-  * [{{ repository.name }}]({{ repository.html_url }}) - {{ repository.topics }}
+  {% if repository.topics contains 'bcbb-training' %}
+  - [{{ repository.name }}]({{ repository.html_url }})
+	
+	{% endif %}
+
 {% endfor %}
