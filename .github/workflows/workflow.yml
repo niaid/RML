@@ -10,7 +10,7 @@ jobs:
     - uses: actions/checkout@master
       with:
         token: ${{ secrets.JEKYLL_PAT }}
-	ref: master
+        ref: master
     - run: |
         bundle update
         bundle install
