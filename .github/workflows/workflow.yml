@@ -10,14 +10,16 @@ jobs:
     - uses: actions/checkout@master
       with:
         token: ${{ secrets.JEKYLL_PAT }}
+	ref: master
     - run: |
-        git checkout master
         bundle update
         bundle install
         rm -rf ./docs
         mkdir ./docs
-        cp docs.config.yml ./docs/_config.yml
         bundle exec jekyll build --future
+	cp docs.config.yml ./docs/_config.yml
+	git config user.name pooranibcbb
+	git config user.email poorani.subramanian@nih.gov
         git add --all
         git commit -a -m 'update site'
         git push
