@@ -11,11 +11,17 @@ jobs:
       with:
         token: ${{ secrets.JEKYLL_PAT }}
     - run: |
+      name: bundle update
+        git checkout master
         bundle update
         bundle install
+    - run:
+      name: jekyll build
         rm -rf ./docs
         mkdir ./docs
         bundle exec jekyll build --future
+    - run:
+      name: git push
         git add --all
         git commit -a -m 'update site'
         git push origin/master
