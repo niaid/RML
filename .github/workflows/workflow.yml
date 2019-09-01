@@ -4,11 +4,9 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: macos-latest
 
     steps:
-    - name: Build the site
     - uses: actions/checkout@master
       with:
         token: ${{ secrets.JEKYLL_PAT }}
