@@ -18,3 +18,4 @@ jobs:
         bundle exec jekyll build --future
         git add --all
         git commit -a -m 'update site'
+        git push origin/master
