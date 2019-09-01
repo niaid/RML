@@ -16,9 +16,6 @@ jobs:
         rm -rf ./docs
         mkdir ./docs
         bundle exec jekyll build --future
-        git remote add origin https://github.com/niaid/RML.git
-        git config user.name Poorani
-        git config user.email poorani.subramanian@nih.gov
         git add --all
         git commit -a -m 'update site'
         git push origin/master
