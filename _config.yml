@@ -4,7 +4,7 @@ repository: niaid/RML
 destination: docs
 url: "https://niaid.github.io/RML"
 
-exclude: [.gitignore, Gemfile, README.md, _config.yml]
+exclude: [.gitignore, Gemfile, README.md, _config.yml, docs.config.yml]
 
 plugins:
   - jekyll-github-metadata
