@@ -8,14 +8,19 @@ jobs:
     runs-on: macos-latest
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@master
     - name: Build the site
+      with:
+        token: ${{ secrets.JEKYLL_PAT }}
       run: |
         bundle update
         bundle install
         rm -rf ./docs
         mkdir ./docs
         bundle exec jekyll build --future
+        git remote add origin https://github.com/niaid/RML.git
+        git config user.name Poorani
+        git config user.email poorani.subramanian@nih.gov
         git add --all
         git commit -a -m 'update site'
         git push origin/master
