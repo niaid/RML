@@ -13,4 +13,4 @@ jobs:
       run: |
         bundle update
         bundle install
-        jekyll build --future
+        bundle exec jekyll build --future
