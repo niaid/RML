@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@master
       with:
         token: ${{ secrets.JEKYLL_PAT }}
-      run: |
+    - run: |
         bundle update
         bundle install
         rm -rf ./docs
