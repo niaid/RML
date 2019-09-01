@@ -14,3 +14,5 @@ jobs:
         bundle update
         bundle install
         bundle exec jekyll build --future
+        git add --all
+        git commit -a -m 'update site'
