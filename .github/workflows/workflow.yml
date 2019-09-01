@@ -16,8 +16,8 @@ jobs:
         bundle install
         rm -rf ./docs
         mkdir ./docs
-	cp docs.config.yml ./docs/_config.yml
+        cp docs.config.yml ./docs/_config.yml
         bundle exec jekyll build --future
         git add --all
         git commit -a -m 'update site'
-        git push 
+        git push
