@@ -27,4 +27,4 @@ jobs:
         echo "yes" >>README.md
         git commit -a -m 'update readme'
         git status
-        git -c http.extraheader="AUTHORIZATION:basic ${GITHUB_TOKEN}" push --dry-run --verbose origin gh-pages
+        git pull --dry-run origin gh-pages
