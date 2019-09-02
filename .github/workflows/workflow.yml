@@ -18,5 +18,8 @@ jobs:
         git checkout gh-pages
         echo "yes" >>README.md
         git status
+        git config user.name pooranibcbb
+        git config user.email poorani.subramanian@nih.gov
         git commit -a -m 'test commit'
+        git status
         git push
