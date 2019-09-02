@@ -15,7 +15,7 @@ jobs:
         token: ${{ secrets.JEKYLL_PAT }}
         ref: gh-pages
     - run: |
-      	git checkout gh-pages
+        git checkout gh-pages
 	echo "yes" >>README.md
         git status
 	git commit -a -m 'test commit'
