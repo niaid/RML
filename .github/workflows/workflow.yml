@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@master
@@ -28,4 +28,4 @@ jobs:
         echo "yes" >>README.md
         git commit -a -m 'update readme'
         git status
-        git push --dry-run origin gh-pages
+        git push --dry-run --verbose origin gh-pages
