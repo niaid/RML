@@ -1,7 +1,6 @@
 name: Jekyll site CI
 
 on: [push]
-  ref: action
 
 jobs:
   build:
