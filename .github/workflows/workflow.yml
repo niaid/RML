@@ -16,7 +16,7 @@ jobs:
           git config --global url."https://api:$GITHUB_TOKEN@github.com/".insteadOf "https://github.com/"
           git clone https://github.com/niaid/RML.git
           cd RML
-	  git checkout gh-pages
+          git checkout gh-pages
           echo "yes" >>README.md
           git status
           git commit -a -m 'test commit'
