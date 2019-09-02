@@ -1,7 +1,6 @@
 title: BCBB Training Seminars at Rocky Mountain Labs
 theme: jekyll-theme-minimal
 repository: niaid/RML
-destination: docs
 url: "https://niaid.github.io"
 baseurl: "/RML"
 
@@ -11,5 +10,4 @@ plugins:
   - jekyll-github-metadata
 
 permalinks: pretty
-
 
