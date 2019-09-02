@@ -20,6 +20,9 @@ jobs:
         git status
         git config user.name pooranibcbb
         git config user.email poorani.subramanian@nih.gov
+        git config --global url."https://api:$GITHUB_TOKEN@github.com/".insteadOf "https://github.com/"
         git commit -a -m 'test commit'
         git status
-        git push
+        git push --dry-run origin gh-pages
+      env:
+        github_token: ${{ secrets.JEKYLL_PAT }}
