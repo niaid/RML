@@ -17,7 +17,7 @@ jobs:
         fetch-depth: 1
     - name: build
       env:
-        github_token: ${{ secrets.JEKYLL_PAT }}
+        mytoken: ${{ secrets.JEKYLL_PAT }}
       run: |
         pwd
         git config user.name "${GITHUB_ACTOR}"
@@ -27,4 +27,4 @@ jobs:
         echo "yes" >>README.md
         git commit -a -m 'update readme'
         git status
-        git pull --dry-run origin gh-pages
+        git -c http.extraheader="AUTHORIZATION: basic ${MYTOKEN}" pull --dry-run --verbose origin gh-pages
