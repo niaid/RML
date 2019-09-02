@@ -13,6 +13,9 @@ jobs:
       - env:
           github_token: ${{ secrets.JEKYLL_PAT }}
         run: |
+          pwd
+          git config --global user.name pooranibcbb
+          git config --global user.email poorani.subramanian@nih.gov
           git config --global url."https://api:$GITHUB_TOKEN@github.com/".insteadOf "https://github.com/"
           git clone https://github.com/niaid/RML.git
           cd RML
