@@ -22,7 +22,7 @@ jobs:
         pwd
         git config user.name "${GITHUB_ACTOR}"
         git config user.email "poorani.subramanian@nih.gov"
-        git remote set-url origin "https://${GITHIB_TOKEN}:x-oauth-basic@github.com/${GITHUB_REPOSITORY}"
+        git remote set-url origin "https://${GITHUB_TOKEN}:x-oauth-basic@github.com/${GITHUB_REPOSITORY}"
         git config -l
         git status
         echo "yes" >>README.md
