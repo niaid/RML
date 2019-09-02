@@ -14,7 +14,7 @@ jobs:
       with:
         token: ${{ secrets.JEKYLL_PAT }}
         ref: gh-pages
-	fetch-depth: 1
+        fetch-depth: 1
     - name: build
       env:
         github_token: ${{ secrets.JEKYLL_PAT }}
