@@ -1,6 +1,9 @@
 name: Jekyll site CI
 
-on: [push]
+on:
+  push:
+    branches:
+      - action
 
 jobs:
   build:
@@ -10,6 +13,10 @@ jobs:
     - uses: actions/checkout@master
       with:
         token: ${{ secrets.JEKYLL_PAT }}
-        ref: master
+        ref: gh-pages
     - run: |
+      	git checkout gh-pages
+	echo "yes" >>README.md
         git status
+	git commit -a -m 'test commit'
+	git push
