@@ -1,0 +1,16 @@
+name: Jekyll site CI
+
+on: [push]
+  ref: action
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@master
+      with:
+        token: ${{ secrets.JEKYLL_PAT }}
+        ref: master
+    - run: |
+        git status
