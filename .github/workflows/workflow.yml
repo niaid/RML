@@ -10,18 +10,15 @@ jobs:
     runs-on: macos-latest
 
     steps:
-      - env:
-          github_token: ${{ secrets.JEKYLL_PAT }}
-        run: |
-          pwd
-          git config --global user.name pooranibcbb
-          git config --global user.email poorani.subramanian@nih.gov
-          git config --global url."https://api:$GITHUB_TOKEN@github.com/".insteadOf "https://github.com/"
-          git clone https://github.com/niaid/RML.git
-          cd RML
-          git checkout gh-pages
-          echo "yes" >>README.md
-          git status
-          git commit -a -m 'test commit'
-          git status
-          git push --dry-run origin gh-pages
+    - uses: actions/checkout@master
+      with:
+        token: ${{ secrets.JEKYLL_PAT }}
+        ref: gh-pages
+	fetch-depth: 1
+    - name: build
+      env:
+        github_token: ${{ secrets.JEKYLL_PAT }}
+      run: |
+        pwd
+        git config -l
+        git status
