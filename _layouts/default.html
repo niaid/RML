@@ -24,7 +24,7 @@
 
       <dl>
         {% for page in site.html_pages %}
-        <dt><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></dt>
+        <dt><a href="{{ page.url | relative_url }}">{{ page.title }}</a></dt>
         {% endfor %}
       </dl>
 
