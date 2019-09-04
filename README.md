@@ -16,7 +16,7 @@
 
   - If you add a *title* variable, then the page will appear in the sidebar of the site; otherwise it will not.
   - The *layout* variable can take 2 values, *default* or *post*.  These are the (you guessed it!) options for the page layout.  They are defined by the [minimal page theme](https://github.com/pages-themes/minimal) we are using. As far as I can tell, they are almost identical, except the post layout will automatically add the title at the top of the page, and if you include a date variable in the front matter, it will automatically add that as well.  
-  - You can also design additional layouts, and put them in the [_layouts](_layouts) directory and use them in your front matter.
+  - You can also design additional layouts, and put them in the [_layouts](_layouts) directory and use them in your front matter layout variable instead.
 
 ```markdown
 ---
