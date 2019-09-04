@@ -89,7 +89,7 @@ Room A320
 : Basics of Unix - Part 2
 
 2:30 - 4:30
-: Introduction to Structural Biology
+: [Introduction to Structural Biology](https://github.com/niaid/Introduction-to-Structural-Biology)
 
 ### Wednesday, September 11, 2019
 
