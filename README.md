@@ -4,7 +4,7 @@
 
 ### Website pages
 - [index.md](index.md) is our main homepage that publishes to [https://niaid.github.io/RML/](https://niaid.github.io/RML/) .  It has our schedule (I basically copied our poster).  **Please edit this file to add the link to your repo**.
-- [listofrepos.md](listofrepos.md) is just the automatically populated list of our repos with their descriptions.  Originally, it was set up to automatically update based on the bcbb-training topic, but that seemed to mess other things up, so now it is just a manually made list.  The list is located in _data/repos.yml .  You can add your repo to this file.
+- [listofrepos.md](listofrepos.md) is just the automatically populated list of our repos with their descriptions.  Originally, it was set up to automatically update based on the bcbb-training topic, but that seemed to mess other things up, so now it is just a manually made list.  The list is located in [_data/repos.yml](_data/repos.yml) .  You can add your repo to this file.
 - Whenever you commit (and/or push) to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 - You can edit these pages or add additional pages to the repo.
 
