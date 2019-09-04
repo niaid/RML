@@ -50,13 +50,13 @@ Room A322
 : [Genomics 102: Introduction to NGS, Data Processing, & Mapping Using NIAID's Locus HPC](https://github.com/niaid/NGS_Intro)
 
 11:00 - 12:00
-: R 102: Statistical Testing - Part 1
+: [R 102: Statistical Testing - Part 1](https://github.com/niaid/ACE/tree/master/Statistical%20Testing)
 
 12:00 - 1:00
 : Lunch Break
 
 1:00 - 3:00
-: R 102: Statistical Testing - Part 2
+: [R 102: Statistical Testing - Part 2](https://github.com/niaid/ACE/tree/master/Statistical%20Testing)
 
 3:00 - 5:00
 : Introduction to Python - Part 2
