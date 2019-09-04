@@ -39,7 +39,7 @@ Room A322
 : Lunch Break
 
 1:00 - 3:00
-: Tool Highlight: Introduction to Prism 8 for Visualization and Statistics
+: [Tool Highlight: Introduction to Prism 8 for Visualization and Statistics](https://github.com/niaid/Prism)
 
 3:00 - 5:00
 : [R 101: Introduction to R, R Studio, and Visualization](https://github.com/niaid/R_Intro)
