@@ -106,8 +106,8 @@ Guest Presenter: Tom Goddard, UCSF
 ### Thursday, September 12, 2019
 
 9:00 - 10:00
-: Tool Highlight: Microbiome Data Analysis Using Nephele, NIAID's
-Web Platform
+: [Tool Highlight: Microbiome Data Analysis Using Nephele, NIAID's
+Web Platform](https://github.com/niaid/microbiome)
 
 11:00 - 12:00
 : [Using METAGENOTE for Annotation and Submission to NCBI's Sequence Read Archive](https://github.com/niaid/metagenote)
