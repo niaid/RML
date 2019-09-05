@@ -132,3 +132,8 @@ Room A309 & A310
 Instructors will be available for one-on-one demonstrations and consultations from 9:00 am - 5:00 pm, with a lunchbreak from 12:00 - 1:00 pm.
 
 Sign up for a slot by visiting  <http://bit.ly/RMLbioworkshop>
+
+# SURVEY
+Please complete the following survey.  Your feedback and suggestions will be appreciated.
+
+[Click on this link to go to the survey](https://forms.office.com/Pages/ResponsePage.aspx?id=eHW3FHOX1UKFByUcotwrBnAFWmBb6_5LgM-JcK2DIK5UN0JNUlhTSVhGTjJJVjVDWkEyTVc5SlpEMy4u)
