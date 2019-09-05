@@ -59,12 +59,12 @@ Room A322
 : [R 102: Statistical Testing - Part 2](https://github.com/niaid/ACE/tree/master/Statistical%20Testing)
 
 3:00 - 5:00
-: Introduction to Python - Part 2
+: [Introduction to Python - Part 2](https://github.com/niaid/introduction_to_python)
 
 ### Thursday, September 12, 2019
 
 9:00 - 12:00
-: RNASeq Analysis using DESeq2 and R
+: [RNASeq Analysis using DESeq2 and R](https://github.com/niaid/RNAseq_DESeq2_workshop)
 
 12:00 - 1:00
 : Lunch Break
@@ -94,7 +94,7 @@ Room A320
 ### Wednesday, September 11, 2019
 
 11:00 - 12:00
-: Introduction to Python - Part 1
+: [Introduction to Python - Part 1](https://github.com/niaid/introduction_to_python)
 
 12:00 - 1:00
 : Lunch Break
