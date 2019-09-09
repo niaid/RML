@@ -80,13 +80,13 @@ Room A320
 ### Tuesday, September 10, 2019
 
 11:00 - 12:00
-: Basics of Unix - Part 1
+: [Basics of Unix - Part 1](https://github.com/niaid/unix)
 
 12:00 - 1:00
 : Lunch Break
 
 1:00 - 2:30
-: Basics of Unix - Part 2
+: [Basics of Unix - Part 2](https://github.com/niaid/unix)
 
 2:30 - 4:30
 : [Introduction to Structural Biology](https://niaid.github.io/Introduction-to-Structural-Biology/)
