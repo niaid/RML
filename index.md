@@ -12,13 +12,14 @@ date: "10-12 September 2019"
 Computational Biology Specialists from the National Institute of Allergy and Infectious Diseases (NIAID) will be teaching courses on bioinformatics topics and biocomputing tools.
 
 Mariam Quiñones, Ph.D.
+Phil Cruz, Ph.D.\*
+Jingwen Gu, M.S.\*
 Brendan Jeffrey, Ph.D.\*
+Victor Starr Kramer\*
+Meghan McCarthy, Ph.D.\*
 Amit Roy, Ph.D.\*
 Poorani Subramanian, Ph.D.\*
-Phil Cruz, Ph.D.\*
-Meghan McCarthy, Ph.D.\*
 Claire Wang, M.S.\*
-Jingwen Gu, M.S.\*
 
 \* Instructors provide bioinformatics support at the NIAID as employees of Medical Science and Computing, Inc.
 
