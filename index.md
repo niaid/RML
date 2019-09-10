@@ -32,6 +32,8 @@ Room A322
 
 9:00 - 10:00
 : [How Can BCBB's Computational Resources Help Advance Your Research?](https://proj-bip-prod-publicread.s3.amazonaws.com/training/OverviewBCBB/Intro+to+BCBB+-+RML+Sept+2019+-+share.pptx)
+Presenter: Darrell Hurt, PhD
+Chief, Bioinformatics & Computational Biosciences Branch, OCICB
 
 10:00 - 12:00
 : [Genomics 101: Geneious](https://github.com/niaid/geneioustraining)
