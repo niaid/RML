@@ -30,7 +30,7 @@ Room A322
 ### Tuesday, September 10, 2019
 
 9:00 - 10:00
-: How Can BCBB's Computational Resources Help Advance Your Research?
+: [How Can BCBB's Computational Resources Help Advance Your Research?](https://proj-bip-prod-publicread.s3.amazonaws.com/training/OverviewBCBB/Intro+to+BCBB+-+RML+Sept+2019+-+share.pptx)
 
 10:00 - 12:00
 : [Genomics 101: Geneious](https://github.com/niaid/geneioustraining)
