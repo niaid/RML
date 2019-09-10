@@ -33,7 +33,7 @@ Room A322
 : How Can BCBB's Computational Resources Help Advance Your Research?
 
 10:00 - 12:00
-: Genomics 101: Geneious
+: [Genomics 101: Geneious](https://github.com/niaid/geneioustraining)
 
 12:00 - 1:00
 : Lunch Break
