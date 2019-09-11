@@ -73,7 +73,7 @@ Chief, Bioinformatics & Computational Biosciences Branch, OCICB
 : Lunch Break
 
 1:00 - 4:00
-: R 103: Categorical Data Analysis
+: [R 103: Categorical Data Analysis](https://github.com/niaid/Categorical-data-analysis)
 
 
 ## WORKSHOP 2
